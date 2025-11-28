@@ -1,4 +1,4 @@
-export const create_user = (req, res) => {
+export const Create_user = (req, res) => {
     try {
 
         const data = req.body;
