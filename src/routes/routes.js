@@ -1,7 +1,7 @@
 import express from 'express'
-import {a} from '../controller/user_cotroller.js'
+import { create_user } from '../controller/user_cotroller.js'
 const routes = express.Router()
 
-routes.get('/test',a)
+routes.get('/api/user_create', create_user)
 
 export default routes

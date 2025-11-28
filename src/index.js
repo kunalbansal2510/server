@@ -4,7 +4,7 @@ const app = express()
 
 const PORT = 5050
 
-const a = (req, res) => { res.send({ name: "fdsfs", age: 44 }) }
+app.use(express.json())
 
 app.use('/', route)
 
